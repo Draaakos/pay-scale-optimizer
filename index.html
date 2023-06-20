@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Scale Optimizer</title>
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <script src="./src//js//data.js"></script>
+    <script src="./src/js/script.js"></script>
+</head>
+<body>
+    <section>
+        <h1>Maximiza tu potencial salarial</h1>
+        <h2>Estrategias para el reajuste salarial</h2>
+        
+        <h2>Introducción</h2>
+        <p>Bienvenido/a a nuestro sitio web, donde te brindamos información valiosa y recursos para ayudarte a maximizar tu potencial salarial a través del reajuste salarial. Sabemos lo importante que es para ti obtener una compensación justa y acorde a tus habilidades y experiencia. Nuestro objetivo es proporcionarte herramientas y estrategias que te ayuden a negociar con confianza y alcanzar tus metas financieras.</p>
+    </section>
+
+    <section>
+        <h2>Introducción</h2>
+        <p>Bienvenido/a a nuestro sitio web, donde te brindamos información valiosa y recursos para ayudarte a maximizar tu potencial salarial a través del reajuste salarial. Sabemos lo importante que es para ti obtener una compensación justa y acorde a tus habilidades y experiencia. Nuestro objetivo es proporcionarte herramientas y estrategias que te ayuden a negociar con confianza y alcanzar tus metas financieras.</p>
+    </section>
+
+    <section>
+        <form class="calculator" onsubmit="calculateSalary(event)">
+            <h4>Antes</h4>
+            <div class="before">
+                <div>
+                    <label for="beforeMonth">Mes</label>
+                    <select id="beforeMonth" required>
+                        <option value="">Selecciona un mes</option>
+                        <option value="Ene">Enero</option>
+                        <option value="Feb">Febrero</option>
+                        <option value="Mar">Marzo</option>
+                        <option value="Abr">Abril</option>
+                        <option value="May">Mayo</option>
+                        <option value="Jun">Junio</option>
+                        <option value="Jul">Julio</option>
+                        <option value="Ago">Agosto</option>
+                        <option value="Sep">Septiembre</option>
+                        <option value="Oct">Octubre</option>
+                        <option value="Nov">Noviembre</option>
+                        <option value="Dic">Diciembre</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="beforeYear">Año</label>
+                    <select id="beforeYear" required>
+                        <option value="">Selecciona un año</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Ingresa tu salario (líquido)</label>
+                    <input id="beforeSalary" type="number" placeholder="Ej: 350000" required />
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+
+            <h4>Ahora</h4>
+            <div class="after">
+                <div>
+                    <label for="afterMonth">Mes</label>
+                    <select id="afterMonth" required>
+                        <option value="">Selecciona un mes</option>
+                        <option value="Ene">Enero</option>
+                        <option value="Feb">Febrero</option>
+                        <option value="Mar">Marzo</option>
+                        <option value="Abr">Abril</option>
+                        <option value="May">Mayo</option>
+                        <option value="Jun">Junio</option>
+                        <option value="Jul">Julio</option>
+                        <option value="Ago">Agosto</option>
+                        <option value="Sep">Septiembre</option>
+                        <option value="Oct">Octubre</option>
+                        <option value="Nov">Noviembre</option>
+                        <option value="Dic">Diciembre</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="afterYear">Año</label>
+                    <select id="afterYear" required>
+                        <option value="">Selecciona un año</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Ingresa tu salario (líquido)</label>
+                    <input id="afterSalary" type="number" placeholder="Ej: 350000" required />
+                </div>    
+            </div>
+
+            <div>
+                <input class="submitBtn" type="submit" value="Calcular">
+            </div>
+
+            <br />
+            <br />
+            <span id="calculate"></span>
+        </form>
+    </section>
+
+    <section>
+        <h2>¿Qué es el reajuste salarial y por qué es importante?</h2>
+        <p>Explicación sobre qué es el reajuste salarial y su relevancia para los empleados.</p>
+        <p>Beneficios de buscar un reajuste salarial adecuado.</p>
+        <p>Cómo el reajuste salarial puede afectar positivamente tu calidad de vida y futuro financiero.</p>
+    </section>
+
+    <section>
+        <h2>Pasos para lograr un reajuste salarial exitoso</h2>
+        <p>Identificar tu valor en el mercado laboral: investigación y análisis de salarios en tu industria y puesto.</p>
+        <p>Mejorar tus habilidades y experiencia para respaldar tu solicitud de reajuste salarial.</p>
+        <p>Preparar una sólida argumentación basada en logros y contribuciones.</p>
+        <p>Consejos para negociar con confianza y presentar tu solicitud de reajuste de manera efectiva.</p>
+    </section>
+
+    <section>
+        <h2>Estrategias adicionales para incrementar tu remuneración</h2>
+        <p>Explorar opciones de desarrollo profesional y educación continua.</p>
+        <p>Considerar beneficios y compensaciones no salariales.</p>
+        <p>Evaluar la posibilidad de promociones internas o buscar oportunidades externas.</p>
+        <p>Cómo aprovechar las revisiones salariales periódicas de la empresa.</p>
+    </section>
+
+    <section>
+        <h2>Consejos para mantener y gestionar tus ingresos</h2>
+        <p>Presupuesto inteligente: cómo administrar tus ingresos de manera efectiva.</p>
+        <p>Ahorro e inversión: hacer crecer tu patrimonio con una planificación financiera adecuada.</p>
+        <p>Reevaluación periódica de tu remuneración y objetivos a largo plazo.</p>
+    </section>
+
+    <section>
+        <h2>Recursos y herramientas útiles</h2>
+        <p>Enlaces a sitios web y herramientas que proporcionan información salarial y comparativas.</p>
+        <p>Plantillas de cartas y guiones de negociación para solicitar un reajuste salarial.</p>
+        <p>Recursos de educación financiera y desarrollo profesional.</p>
+    </section>
+
+    <section>
+        <h2 class="center">Índice IPC General desde 2009 hasta la fecha</h2>
+        <img src="./src/img/graph.png" alt="grafico IPC">
+        <p>El Índice de Precios al Consumidor (IPC) General es una medida importante que refleja los cambios en los precios de una canasta de bienes y servicios representativa del consumo de los hogares. El IPC General es utilizado para medir la inflación y comprender cómo los precios han evolucionado a lo largo del tiempo.</p>
+        <p>En este gráfico, te presentamos la evolución del Índice IPC General desde el año 2009 hasta la fecha actual. Esta visualización te permitirá observar las fluctuaciones de los precios a lo largo de los años y tener una mejor comprensión de cómo ha cambiado el poder adquisitivo a lo largo del tiempo.</p>
+        <p>El Índice IPC General es una herramienta clave para evaluar el impacto de la inflación en la economía y tomar decisiones informadas sobre cuestiones financieras, como el reajuste salarial, la planificación presupuestaria y la inversión. A través de este gráfico, podrás analizar las tendencias y tomar decisiones más fundamentadas para maximizar tu potencial adquisitivo.</p>
+        <p>Recuerda que el Índice IPC General se actualiza regularmente y refleja los cambios en los precios de bienes y servicios en la economía. Es importante estar al tanto de estas actualizaciones para adaptarse a las fluctuaciones y tomar decisiones financieras inteligentes.</p>
+    </section>
+
+    <footer>
+        <p>La información provista en este sitio web ha sido obtenida de <a href="https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_PRECIOS/MN_CAP_PRECIOS/IPC_EMP_2018/IPC_EMP_2018">Banco central de CHILE</a>.</p>
+    </footer>
+</body>
+</html>
