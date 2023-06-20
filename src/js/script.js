@@ -8,7 +8,7 @@ function formatNumber(number) {
 function adquisitiveText(adjusted, before) {
   const value = adjusted - before;
 
-  return value > 0 ? `$${formatNumber(value.toFixed(0))}` : `$${formatNumber(value.toFixed(0))}`;
+  return value > 0 ? `subio $${formatNumber(value.toFixed(0))}` : `bajo $${formatNumber(value.toFixed(0)) * -1}`;
 }
 
 
