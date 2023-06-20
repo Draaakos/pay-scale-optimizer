@@ -5,6 +5,13 @@ function formatNumber(number) {
 }
 
 
+function adquisitiveText(adjusted, before) {
+  const value = adjusted - before;
+
+  return value > 0 ? `$${formatNumber(value.toFixed(0))}` : `$${formatNumber(value.toFixed(0))}`;
+}
+
+
 const calculateSalary = (evt) => {
   evt.preventDefault();
 
@@ -24,6 +31,6 @@ const calculateSalary = (evt) => {
   const inflationRate = ((afterCoincidence.ipc - beforeCoincidence.ipc) / beforeCoincidence.ipc) * 100;
   const adjustedSalary = afterSalary / (1 + inflationRate / 100);
 
-  const text = `Si comparamos tu sueldo de $${formatNumber(beforeSalary)} del ${beforeMonth} ${beforeYear} con el actual es como si fuera $${formatNumber(adjustedSalary.toFixed(0))} en las fechas antes mencionadas`;
+  const text = `Si comparamos tu sueldo de $${formatNumber(beforeSalary)} del ${beforeMonth} ${beforeYear} con el actual de $${formatNumber(afterSalary)} es equivalente $${formatNumber(adjustedSalary.toFixed(0))} en las fechas antes mencionadas, esto quiere decir que tu poder adquisitivo ${adquisitiveText(adjustedSalary, beforeSalary)}`;
   document.querySelector('#calculate').innerText = text;
 }

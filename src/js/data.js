@@ -393,55 +393,55 @@ const ipc = [
   },
   {
     date: "Feb.2018",
-    ipc: 99.02
+    ipc: 98.62
   },
   {
     date: "Mar.2018",
-    ipc: 99.52
+    ipc: 98.82
   },
   {
     date: "Abr.2018",
-    ipc: 100.10
+    ipc: 99.13
   },
   {
     date: "May.2018",
-    ipc: 100.31
+    ipc: 99.41
   },
   {
     date: "Jun.2018",
-    ipc: 100.43
+    ipc: 99.51
   },
   {
     date: "Jul.2018",
-    ipc: 100.52
+    ipc: 99.86
   },
   {
     date: "Ago.2018",
-    ipc: 100.69
+    ipc: 100.04
   },
   {
     date: "Sep.2018",
-    ipc: 100.84
+    ipc: 100.38
   },
   {
     date: "Oct.2018",
-    ipc: 101.06
+    ipc: 100.74
   },
   {
     date: "Nov.2018",
-    ipc: 101.26
+    ipc: 100.74
   },
   {
     date: "Dic.2018",
-    ipc: 101.60
+    ipc: 100.64
   },
   {
     date: "Ene.2019",
-    ipc: 101.93
+    ipc: 100.75
   },
   {
     date: "Feb.2019",
-    ipc: 102.14
+    ipc: 100.79
   },
   {
     date: "Mar.2019",
@@ -449,206 +449,202 @@ const ipc = [
   },
   {
     date: "Abr.2019",
-    ipc: 102.44
+    ipc: 101.27
   },
   {
     date: "May.2019",
-    ipc: 102.68
+    ipc: 101.54
   },
   {
     date: "Jun.2019",
-    ipc: 102.81
+    ipc: 102.15
   },
   {
     date: "Jul.2019",
-    ipc: 102.84
+    ipc: 102.20
   },
   {
     date: "Ago.2019",
-    ipc: 103.04
+    ipc: 102.43
   },
   {
     date: "Sep.2019",
-    ipc: 103.18
+    ipc: 102.62
   },
   {
     date: "Oct.2019",
-    ipc: 103.29
+    ipc: 102.63
   },
   {
     date: "Nov.2019",
-    ipc: 103.34
+    ipc: 103.47
   },
   {
     date: "Dic.2019",
-    ipc: 103.32
+    ipc: 103.55
   },
   {
     date: "Ene.2020",
-    ipc: 103.32
+    ipc: 103.66
   },
   {
     date: "Feb.2020",
-    ipc: 103.29
+    ipc: 104.24
   },
   {
     date: "Mar.2020",
-    ipc: 103.48
+    ipc: 104.71
   },
   {
     date: "Abr.2020",
-    ipc: 103.75
+    ipc: 105.06
   },
   {
     date: "May.2020",
-    ipc: 103.72
+    ipc: 104.96
   },
   {
     date: "Jun.2020",
-    ipc: 103.94
+    ipc: 104.89
   },
   {
     date: "Jul.2020",
-    ipc: 104.03
+    ipc: 104.99	
   },
   {
     date: "Ago.2020",
-    ipc: 104.21
+    ipc: 105.13
   },
   {
     date: "Sep.2020",
-    ipc: 104.36
+    ipc: 105.80
   },
   {
     date: "Oct.2020",
-    ipc: 104.41
+    ipc: 106.52
   },
   {
     date: "Nov.2020",
-    ipc: 104.29
+    ipc: 106.38
   },
   {
     date: "Dic.2020",
-    ipc: 104.59
+    ipc: 106.74
   },
   {
     date: "Ene.2021",
-    ipc: 104.82
+    ipc: 107.49
   },
   {
     date: "Feb.2021",
-    ipc: 105.19
+    ipc: 107.69
   },
   {
     date: "Mar.2021",
-    ipc: 105.45
+    ipc: 108.09
   },
   {
     date: "Abr.2021",
-    ipc: 105.59
+    ipc: 108.50
   },
   {
     date: "May.2021",
-    ipc: 105.68
+    ipc: 108.79
   },
   {
     date: "Jun.2021",
-    ipc: 105.79
+    ipc: 108.88
   },
   {
     date: "Jul.2021",
-    ipc: 105.92
+    ipc: 109.76
   },
   {
     date: "Ago.2021",
-    ipc: 106.19
+    ipc: 110.15
   },
   {
     date: "Sep.2021",
-    ipc: 106.46
+    ipc: 111.45
   },
   {
     date: "Oct.2021",
-    ipc: 106.76
+    ipc: 112.94
   },
   {
     date: "Nov.2021",
-    ipc: 107.17
+    ipc: 113.51
   },
   {
     date: "Dic.2021",
-    ipc: 107.54
+    ipc: 114.39
   },
   {
     date: "Ene.2022",
-    ipc: 107.88
+    ipc: 115.77
   },
   {
     date: "Feb.2022",
-    ipc: 108.35
+    ipc: 116.10
   },
   {
     date: "Mar.2022",
-    ipc: 108.76
+    ipc: 118.26
   },
   {
     date: "Abr.2022",
-    ipc: 109.05
+    ipc: 119.91
   },
   {
     date: "May.2022",
-    ipc: 109.45
+    ipc: 121.35
   },
   {
     date: "Jun.2022",
-    ipc: 109.82
+    ipc: 122.48
   },
   {
     date: "Jul.2022",
-    ipc: 110.12
+    ipc: 124.16
   },
   {
     date: "Ago.2022",
-    ipc: 110.51
+    ipc: 125.67
   },
   {
     date: "Sep.2022",
-    ipc: 110.94
+    ipc: 126.75
   },
   {
     date: "Oct.2022",
-    ipc: 111.19
+    ipc: 127.41
   },
   {
     date: "Nov.2022",
-    ipc: 111.51
+    ipc: 128.65
   },
   {
     date: "Dic.2022",
-    ipc: 111.82
+    ipc: 129.02
   },
   {
     date: "Ene.2023",
-    ipc: 112.11
+    ipc: 130.05
   },
   {
     date: "Feb.2023",
-    ipc: 112.47
+    ipc: 129.97
   },
   {
     date: "Mar.2023",
-    ipc: 112.79
+    ipc: 131.38
   },
   {
     date: "Abr.2023",
-    ipc: 113.09
+    ipc: 131.79
   },
   {
     date: "May.2023",
-    ipc: 113.42
-  },
-  {
-    date: "Jun.2023",
-    ipc: 113.83
+    ipc: 131.94
   }
 ];
